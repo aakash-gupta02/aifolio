@@ -20,8 +20,6 @@ export default function ToolsPage() {
         </p>
       </div>
 
-      {/* <FiltersSection /> */}
-
       {/* Tools Grid */}
       <ToolsGrid tools={tools} />
     </main>
