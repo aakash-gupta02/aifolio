@@ -3,9 +3,8 @@ import Background from "./Background";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden py-24 lg:py-32">
+    <section className="relative overflow-hidden py-14 lg:pb-32">
       <Background />
-
 
       <div className="max-w-5xl mx-auto px-6 text-center">
 
@@ -19,20 +18,16 @@ export default function Hero() {
 
         {/* Heading */}
         <h1 className="text-5xl lg:text-6xl font-semibold tracking-tight text-gray-900 mb-6">
-          Your AI Directory —{" "}
-          <span className="text-purple-600">
+          Your AI Directory{" "} <br />
+          <span className="textGradient">
             100+ Tools
           </span>{" "}
           in One Place
         </h1>
 
         {/* Subtitle */}
-        <p className="text-lg text-gray-600 mb-4 max-w-2xl mx-auto leading-relaxed">
-          A curated collection of 100+ AI products sourced from "There's An AI
-          For That", organized for fast browsing and clean usability.
-        </p>
 
-        <p className="text-sm text-gray-500 mb-10 max-w-2xl mx-auto">
+        <p className="text-lg text-gray-500 mb-10 max-w-2xl mx-auto">
           Discover detailed descriptions, categories, pricing, scores, rankings,
           and direct links for every AI tool. Designed with a minimal, modern UI
           and a purple-accent theme that fits the AI aesthetic.
@@ -40,7 +35,7 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex justify-center items-center gap-4 flex-wrap">
-          <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition inline-flex items-center gap-2">
+          <button className="bgGradient text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition inline-flex items-center gap-2">
             Browse All Tools
             <ArrowRight className="w-5 h-5" />
           </button>

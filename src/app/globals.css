@@ -24,3 +24,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.textGradient {
+  background: linear-gradient(90deg, #7c3aed 0%, #db2777 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bgGradient{
+  background: linear-gradient(90deg, #7c3aed 0%, #db2777 100%);
+}

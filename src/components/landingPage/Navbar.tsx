@@ -1,20 +1,20 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { 
-  Zap, 
-  Search, 
-  Grid3X3, 
-  FolderOpen, 
-  Info,
-  X,
-  Menu
+import {
+    Zap,
+    Search,
+    Grid3X3,
+    FolderOpen,
+    Info,
+    X,
+    Menu
 } from 'lucide-react';
 import Logo from './Logo';
 
-type NavItem = { 
-  name: string; 
-  href: string;
-  icon: React.ComponentType<any>;
+type NavItem = {
+    name: string;
+    href: string;
+    icon: React.ComponentType<any>;
 }
 
 const navItems: NavItem[] = [
@@ -42,16 +42,16 @@ const Navbar: React.FC = () => {
             {/* Minimal Floating Navbar */}
             <nav className={`
                 fixed top-6 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500
-                ${scrolled 
-                    ? 'w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] bg-white/95 backdrop-blur-xl border border-white/20 shadow-2xl shadow-purple-500/10 rounded-2xl' 
+                ${scrolled
+                    ? 'w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] bg-white/95 backdrop-blur-xl border border-white/20 shadow-2xl shadow-purple-500/10 rounded-2xl'
                     : 'w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[65%] bg-white/90 backdrop-blur-lg border border-white/30 shadow-xl shadow-purple-500/5 rounded-3xl'
                 }
             `}>
                 <div className="px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         {/* Brand Logo */}
-                   
-                   <Logo />
+
+                        <Logo />
 
                         {/* Desktop Navigation */}
                         <div className="hidden md:flex items-center gap-1">
@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
                                     </a>
                                 );
                             })}
-                            
+
                             {/* Mobile Search */}
                             <button className="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-white/50 transition-all duration-200 group w-full">
                                 <Search className="w-5 h-5 text-gray-400 group-hover:text-purple-500 transition-colors" />
