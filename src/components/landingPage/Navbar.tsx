@@ -1,92 +1,134 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react';
+import { 
+  Zap, 
+  Search, 
+  Grid3X3, 
+  FolderOpen, 
+  Info,
+  X,
+  Menu
+} from 'lucide-react';
+import Logo from './Logo';
 
-type NavItem = { name: string; href: string }
+type NavItem = { 
+  name: string; 
+  href: string;
+  icon: React.ComponentType<any>;
+}
 
 const navItems: NavItem[] = [
-    { name: 'Tools', href: '#' },
-    { name: 'Categories', href: '#' },
-    { name: 'About', href: '#' },
+    { name: 'Tools', href: '/tools', icon: Grid3X3 },
+    { name: 'Categories', href: '/categories', icon: FolderOpen },
+    { name: 'About', href: '/about', icon: Info },
 ]
 
 const Navbar: React.FC = () => {
-    const [mobileOpen, setMobileOpen] = useState(false)
+    const [mobileOpen, setMobileOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 20;
+            setScrolled(isScrolled);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
-        <nav className="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16">
-                    {/* Brand */}
-                    <div className="flex items-center gap-2">
-                        <div className="bg-purple-600 text-white px-2.5 py-1.5 rounded-md text-sm font-semibold tracking-tight">AI</div>
-                        <span className="text-base font-semibold text-gray-900">Folio</span>
-                    </div>
+        <>
+            {/* Minimal Floating Navbar */}
+            <nav className={`
+                fixed top-6 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500
+                ${scrolled 
+                    ? 'w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] bg-white/95 backdrop-blur-xl border border-white/20 shadow-2xl shadow-purple-500/10 rounded-2xl' 
+                    : 'w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[65%] bg-white/90 backdrop-blur-lg border border-white/30 shadow-xl shadow-purple-500/5 rounded-3xl'
+                }
+            `}>
+                <div className="px-6 lg:px-8">
+                    <div className="flex items-center justify-between h-16">
+                        {/* Brand Logo */}
+                   
+                   <Logo />
 
-                    {/* Desktop nav */}
-                    <div className="hidden md:flex items-center gap-6">
-                        {navItems.map((item) => (
-                            <a
-                                key={item.name}
-                                href={item.href}
-                                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                        {/* Desktop Navigation */}
+                        <div className="hidden md:flex items-center gap-1">
+                            {navItems.map((item) => {
+                                const Icon = item.icon;
+                                return (
+                                    <a
+                                        key={item.name}
+                                        href={item.href}
+                                        className="group flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50 relative"
+                                    >
+                                        <Icon className="w-4 h-4 transition-transform group-hover:scale-110" />
+                                        {item.name}
+                                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-linear-to-r from-purple-600 to-pink-600 group-hover:w-3/4 transition-all duration-300 rounded-full"></div>
+                                    </a>
+                                );
+                            })}
+                        </div>
+
+                        {/* Search & Mobile toggle */}
+                        <div className="flex items-center gap-2">
+                            {/* Search Button */}
+                            <button className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50">
+                                <Search className="w-4 h-4" />
+                                <span className="hidden lg:inline">Search</span>
+                            </button>
+
+                            {/* Mobile Menu Button */}
+                            <button
+                                onClick={() => setMobileOpen((s) => !s)}
+                                aria-expanded={mobileOpen}
+                                aria-label="Toggle menu"
+                                className="p-2 rounded-lg text-gray-600 hover:text-purple-600 hover:bg-white/50 transition-colors md:hidden"
                             >
-                                {item.name}
-                            </a>
-                        ))}
-                        <button className="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">
-                            Sign In
-                        </button>
-                    </div>
-
-                    {/* Mobile toggle */}
-                    <div className="md:hidden">
-                        <button
-                            onClick={() => setMobileOpen((s) => !s)}
-                            aria-expanded={mobileOpen}
-                            aria-label="Toggle menu"
-                            className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-100"
-                        >
-                            {mobileOpen ? (
-                                // X icon
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            ) : (
-                                // Hamburger icon
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                                </svg>
-                            )}
-                        </button>
+                                {mobileOpen ? (
+                                    <X className="w-5 h-5" />
+                                ) : (
+                                    <Menu className="w-5 h-5" />
+                                )}
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Mobile menu */}
-            {mobileOpen && (
-                <div className="md:hidden border-t border-gray-100 bg-white">
-                    <div className="px-4 pt-4 pb-6 space-y-3">
-                        {navItems.map((item) => (
-                            <a
-                                key={item.name}
-                                href={item.href}
-                                className="block text-base font-medium text-gray-700 hover:text-gray-900 transition-colors"
-                                onClick={() => setMobileOpen(false)}
-                            >
-                                {item.name}
-                            </a>
-                        ))}
-                        <button
-                            onClick={() => setMobileOpen(false)}
-                            className="w-full mt-2 bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors"
-                        >
-                            Sign In
-                        </button>
+                {/* Mobile menu */}
+                {mobileOpen && (
+                    <div className="md:hidden border-t border-white/20 bg-white/95 backdrop-blur-xl rounded-b-2xl">
+                        <div className="px-4 pt-2 pb-6 space-y-1">
+                            {navItems.map((item) => {
+                                const Icon = item.icon;
+                                return (
+                                    <a
+                                        key={item.name}
+                                        href={item.href}
+                                        className="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-white/50 transition-all duration-200 group"
+                                        onClick={() => setMobileOpen(false)}
+                                    >
+                                        <Icon className="w-5 h-5 text-gray-400 group-hover:text-purple-500 transition-colors" />
+                                        {item.name}
+                                    </a>
+                                );
+                            })}
+                            
+                            {/* Mobile Search */}
+                            <button className="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-white/50 transition-all duration-200 group w-full">
+                                <Search className="w-5 h-5 text-gray-400 group-hover:text-purple-500 transition-colors" />
+                                Search
+                            </button>
+                        </div>
                     </div>
-                </div>
-            )}
-        </nav>
+                )}
+            </nav>
+
+            {/* Spacer for fixed navbar */}
+            <div className="h-28"></div>
+        </>
     )
 }
 
-export default Navbar
+export default Navbar;
