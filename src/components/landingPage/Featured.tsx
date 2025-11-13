@@ -51,12 +51,12 @@ export default function Features() {
                         <i className="w-4 h-4 flex items-center justify-center">
                             <Sparkles className="w-4 h-4 text-purple-600" />
                         </i>
-                        WHAT'S INSIDE
+                        What's Inside
                     </div>
 
                     <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight text-gray-900 mb-4">
                         Everything you need to find
-                        <br /> the perfect AI tool
+                        <br /> the perfect <span className="textGradient">AI tool</span>
                     </h2>
 
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -71,13 +71,19 @@ export default function Features() {
                         return (
                             <div
                                 key={feature.id}
-                                className="bg-white border border-gray-200 rounded-xl p-8 hover:border-purple-200 hover:shadow-lg transition-all group"
+                                className="bg-white border relative border-gray-200 rounded-xl p-8 hover:border-purple-200 hover:shadow-lg transition-all group"
                             >
-                                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-5 group-hover:bg-purple-600 transition-colors">
-                                    <Icon className="w-6 h-6 text-purple-600 group-hover:text-white" />
+                                <span className="pointer-events-none absolute inset-0 bg-linear-to-b from-purple-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
+
+                                <div className="relative z-10">
+
+                                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-5 group-hover:bg-purple-600 transition-colors">
+                                        <Icon className="w-6 h-6 text-purple-600 group-hover:text-white" />
+                                    </div>
+                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                                    <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
                                 </div>
-                                <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                                <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+
                             </div>
                         );
                     })}
