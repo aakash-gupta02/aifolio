@@ -24,19 +24,18 @@ export function generateStaticParams() {
     const tools = getAllTools();
     return tools.map((tool) => ({ slug: tool.slug }));
 }
-
 export default function ToolDetailPage({ params }: Props) {
     const tool = getToolById(params.slug);
 
     if (!tool) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-gray-50 to-gray-100">
+            <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
                 <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-red-100 rounded-full flex items-center justify-center">
-                        <AlertTriangle className="w-12 h-12 text-red-600" />
+                    <div className="w-24 h-24 mx-auto mb-4 bg-red-100 dark:bg-red-900/20 rounded-full flex items-center justify-center">
+                        <AlertTriangle className="w-12 h-12 text-red-600 dark:text-red-400" />
                     </div>
-                    <h1 className="text-2xl font-bold text-gray-900 mb-2">Tool Not Found</h1>
-                    <p className="text-gray-600 mb-6">The tool you're looking for doesn't exist.</p>
+                    <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Tool Not Found</h1>
+                    <p className="text-gray-600 dark:text-gray-400 mb-6">The tool you're looking for doesn't exist.</p>
                     <Link
                         href="/tools"
                         className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-all duration-200"
@@ -48,13 +47,12 @@ export default function ToolDetailPage({ params }: Props) {
             </div>
         );
     }
-
     return (
-        <main className="min-h-screen mt-16 ">
+        <main className="min-h-screen mt-16 dark:bg-gray-900">
 
             <Background />
             {/* Main content */}
-            <div className="max-w-5xl mx-auto px-6 pb-12 ">
+            <div className="max-w-5xl mx-auto px-6 pb-12">
                 {/* Header section - Balanced */}
                 <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6 mb-10">
                     <div className="shrink-0">
@@ -65,7 +63,7 @@ export default function ToolDetailPage({ params }: Props) {
                                 alt={tool.name}
                                 width={96}
                                 height={96}
-                                className="relative rounded-xl border border-white shadow-lg bg-white p-2.5"
+                                className="relative rounded-xl border border-white dark:border-gray-800 shadow-lg bg-white dark:bg-gray-800 p-2.5"
                             />
                         </div>
                     </div>
@@ -76,26 +74,26 @@ export default function ToolDetailPage({ params }: Props) {
                                 Rank #{tool.rank}
                             </span>
                             <span className={`px-2.5 py-1 text-sm font-medium rounded-full capitalize ${tool.pricing === 'free'
-                                    ? 'bg-green-100 text-green-700'
-                                    : tool.pricing === 'paid'
-                                        ? 'bg-blue-100 text-blue-700'
-                                        : 'bg-orange-100 text-orange-700'
+                                ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400'
+                                : tool.pricing === 'paid'
+                                    ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400'
+                                    : 'bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400'
                                 }`}>
                                 {tool.pricing}
                             </span>
                             {tool.verified && (
-                                <span className="px-2.5 py-1 bg-emerald-100 text-emerald-700 text-sm font-medium rounded-full flex items-center gap-1">
+                                <span className="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 text-sm font-medium rounded-full flex items-center gap-1">
                                     <Check className="w-4 h-4" />
                                     Verified
                                 </span>
                             )}
                         </div>
 
-                        <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3 leading-tight">
+                        <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-3 leading-tight">
                             {tool.name}
                         </h1>
 
-                        <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
+                        <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
                             {tool.description}
                         </p>
                     </div>
@@ -105,12 +103,12 @@ export default function ToolDetailPage({ params }: Props) {
                 <div className="grid lg:grid-cols-3 gap-6 mb-10">
                     {/* Main Overview Card */}
                     <div className="lg:col-span-2">
-                        <div className="rounded-2xl border border-gray-200 bg-white p-7 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-7 shadow-lg hover:shadow-xl dark:hover:shadow-purple-500/10 transition-all duration-300">
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-2 bg-linear-to-r from-purple-500 to-pink-500 rounded-lg">
                                     <FileText className="w-5 h-5 text-white" />
                                 </div>
-                                <h2 className="text-xl font-bold text-gray-900">Tool Overview</h2>
+                                <h2 className="text-xl font-bold text-gray-900 dark:text-white">Tool Overview</h2>
                             </div>
 
                             <div className="grid md:grid-cols-2 gap-5">
@@ -118,9 +116,9 @@ export default function ToolDetailPage({ params }: Props) {
                                 <div className="group">
                                     <div className="flex items-center gap-2 mb-2">
                                         <Zap className="w-4 h-4 text-purple-500" />
-                                        <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Name</span>
+                                        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Name</span>
                                     </div>
-                                    <p className="text-base font-semibold text-gray-900 group-hover:text-purple-600 transition-colors">
+                                    <p className="text-base font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
                                         {tool.name}
                                     </p>
                                 </div>
@@ -129,17 +127,17 @@ export default function ToolDetailPage({ params }: Props) {
                                 <div className="group">
                                     <div className="flex items-center gap-2 mb-2">
                                         <Star className="w-4 h-4 text-purple-500" />
-                                        <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Rank</span>
+                                        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Rank</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <span className="text-base font-bold text-purple-600">
+                                        <span className="text-base font-bold text-purple-600 dark:text-purple-400">
                                             #{tool.rank}
                                         </span>
                                         <div className="flex">
                                             {[...Array(5)].map((_, i) => (
                                                 <Star
                                                     key={i}
-                                                    className={`w-4 h-4 ${i < Math.ceil(tool.rank / 20) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
+                                                    className={`w-4 h-4 ${i < Math.ceil(tool.rank / 20) ? 'text-yellow-400 fill-current' : 'text-gray-300 dark:text-gray-600'}`}
                                                 />
                                             ))}
                                         </div>
@@ -150,13 +148,13 @@ export default function ToolDetailPage({ params }: Props) {
                                 <div className="group">
                                     <div className="flex items-center gap-2 mb-2">
                                         <DollarSign className="w-4 h-4 text-purple-500" />
-                                        <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Pricing</span>
+                                        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Pricing</span>
                                     </div>
                                     <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold capitalize ${tool.pricing === 'free'
-                                            ? 'bg-green-50 text-green-700'
-                                            : tool.pricing === 'paid'
-                                                ? 'bg-blue-50 text-blue-700'
-                                                : 'bg-orange-50 text-orange-700'
+                                        ? 'bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-400'
+                                        : tool.pricing === 'paid'
+                                            ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400'
+                                            : 'bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400'
                                         }`}>
                                         {tool.pricing}
                                     </span>
@@ -166,16 +164,16 @@ export default function ToolDetailPage({ params }: Props) {
                                 <div className="group">
                                     <div className="flex items-center gap-2 mb-2">
                                         <Shield className="w-4 h-4 text-purple-500" />
-                                        <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Status</span>
+                                        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Status</span>
                                     </div>
                                     <div className="flex items-center gap-2">
                                         {tool.verified ? (
-                                            <span className="inline-flex items-center px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-semibold">
+                                            <span className="inline-flex items-center px-3 py-1 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full text-sm font-semibold">
                                                 <Check className="w-4 h-4 mr-1" />
                                                 Verified
                                             </span>
                                         ) : (
-                                            <span className="inline-flex items-center px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-sm font-semibold">
+                                            <span className="inline-flex items-center px-3 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full text-sm font-semibold">
                                                 <AlertTriangle className="w-4 h-4 mr-1" />
                                                 Unverified
                                             </span>
@@ -208,7 +206,7 @@ export default function ToolDetailPage({ params }: Props) {
                     <div className="inline-flex flex-col sm:flex-row gap-3 items-center">
                         <Link
                             href="/tools"
-                            className="group inline-flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200"
+                            className="group inline-flex items-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200 dark:border-gray-700"
                         >
                             <ArrowLeft className="w-4 h-4 transform group-hover:-translate-x-0.5 transition-transform" />
                             Browse More Tools
