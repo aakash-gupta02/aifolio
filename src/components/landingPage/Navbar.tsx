@@ -20,7 +20,7 @@ type NavItem = {
 
 const navItems: NavItem[] = [
     { name: 'Tools', href: '/tools', icon: Grid3X3 },
-    { name: 'Categories', href: '/categories', icon: FolderOpen },
+    { name: 'Features', href: '/categories', icon: FolderOpen },
     { name: 'About', href: '/about', icon: Info },
 ]
 
@@ -75,11 +75,10 @@ const Navbar: React.FC = () => {
                         {/* Search & Mobile toggle */}
                         <div className="flex items-center gap-2">
                             {/* Search Button */}
-                            {/* <button className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50">
-                                <Search className="w-4 h-4" />
-                                <span className="hidden lg:inline">Search</span>
-                            </button> */}
-                            <SearchBox title='Search'  />
+                            <div className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50">
+
+                                <SearchBox title='Search' />
+                            </div>
 
                             {/* Mobile Menu Button */}
                             <button

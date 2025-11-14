@@ -1,6 +1,7 @@
 import { Sparkles } from "lucide-react";
 import Background from "./Background";
 import SectionHeading from "./SectionHeading";
+import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -17,9 +18,11 @@ export default function CTA() {
 
         <div className="flex items-center justify-center gap-4 flex-wrap">
 
-          <button className="px-8 py-3.5 rounded-lg text-base font-medium textGradient  bg-white hover:bg-gray-50 transition-all hover:shadow-xl inline-flex items-center gap-2">
+          <Link
+          href="/tools"
+          className="px-8 py-3.5 rounded-lg text-base font-medium textGradient  bg-white hover:bg-gray-50 transition-all hover:shadow-xl inline-flex items-center gap-2">
             Browse All Tools →
-          </button>
+          </Link>
 
           <button className="bgGradient text-white px-8 py-3.5 rounded-lg text-base font-medium hover:bg-purple-400 transition-colors border border-purple-400 inline-flex items-center gap-2">
             Learn More
