@@ -10,6 +10,7 @@ import {
     Menu
 } from 'lucide-react';
 import Logo from './Logo';
+import SearchBox from '../pages/SearchBox';
 
 type NavItem = {
     name: string;
@@ -74,10 +75,11 @@ const Navbar: React.FC = () => {
                         {/* Search & Mobile toggle */}
                         <div className="flex items-center gap-2">
                             {/* Search Button */}
-                            <button className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50">
+                            {/* <button className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-medium text-gray-600 hover:text-purple-600 transition-all duration-200 hover:bg-white/50">
                                 <Search className="w-4 h-4" />
                                 <span className="hidden lg:inline">Search</span>
-                            </button>
+                            </button> */}
+                            <SearchBox title='Search'  />
 
                             {/* Mobile Menu Button */}
                             <button

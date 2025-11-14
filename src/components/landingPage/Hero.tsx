@@ -1,7 +1,17 @@
 import { ArrowRight, Search } from "lucide-react";
 import Background from "./Background";
+import Link from "next/link";
+import SearchBox from "../pages/SearchBox";
 
 export default function Hero() {
+
+  const searchRedirect = () => {
+    // Implement search redirect logic here
+    console.log("Search button clicked");
+
+  }
+
+
   return (
     <section className="relative overflow-hidden py-14 lg:pb-32">
       <Background />
@@ -35,15 +45,14 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex justify-center items-center gap-4 flex-wrap">
-          <button className="bgGradient text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition inline-flex items-center gap-2">
+          <Link
+            href="/tools"
+            className="bgGradient text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition inline-flex items-center gap-2">
             Browse All Tools
             <ArrowRight className="w-5 h-5" />
-          </button>
+          </Link>
 
-          <button className="bg-white text-gray-700 px-6 py-3 rounded-lg font-medium border border-gray-300 hover:bg-gray-50 transition inline-flex items-center gap-2">
-            <Search className="w-5 h-5" />
-            Search Tools
-          </button>
+          <SearchBox />
         </div>
       </div>
     </section>
