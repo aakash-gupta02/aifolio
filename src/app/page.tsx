@@ -12,7 +12,6 @@ export default function Home() {
       <Stats />
       <Features />
       <CTA />
-      <Footer />
 
     </main>
   );
