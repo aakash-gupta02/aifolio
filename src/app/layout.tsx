@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://aifolio-labs.vercel.app"),
 
   title: {
     default: "AIFolio – Discover 100+ AI Tools",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://your-domain.com",
+    url: "https://aifolio-labs.vercel.app",
     title: "AIFolio – Explore 100+ AI Tools",
     description:
       "Browse a curated catalog of 100+ AI tools with ranking, pricing, details, and verified data. Built with Next.js 14 and Tailwind for speed and clarity.",

@@ -1,7 +1,7 @@
 import { getAllTools } from "@/lib/getTools";
 
 export default function sitemap() {
-  const domain = "https://your-domain.com";
+  const domain = "https://aifolio-labs.vercel.app";
 
   const tools = getAllTools();
 
