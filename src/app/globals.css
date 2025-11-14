@@ -12,6 +12,20 @@
   color: transparent;
 }
 
-.bgGradient{
+/* Optional: Slightly brighter gradient for dark mode */
+.dark .textGradient {
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bgGradient {
   background: linear-gradient(90deg, #7c3aed 0%, #db2777 100%);
+}
+
+/* Optional: Slightly brighter gradient for dark mode */
+.dark .bgGradient {
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%);
 }
