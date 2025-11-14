@@ -1,105 +1,45 @@
+import Logo from "./Logo";
+
 export default function Footer() {
-  const sections = [
-    {
-      title: "Product",
-      links: [
-        { label: "All Tools", href: "#" },
-        { label: "Categories", href: "#" },
-        { label: "Pricing", href: "#" },
-        { label: "Updates", href: "#" },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { label: "About", href: "#" },
-        { label: "Blog", href: "#" },
-        { label: "Contact", href: "#" },
-        { label: "Careers", href: "#" },
-      ],
-    },
-    {
-      title: "Legal",
-      links: [
-        { label: "Privacy", href: "#" },
-        { label: "Terms", href: "#" },
-        { label: "Cookie Policy", href: "#" },
-        { label: "Licenses", href: "#" },
-      ],
-    },
-  ];
-
-  const socials = [
-    { label: "Twitter", href: "#" },
-    { label: "GitHub", href: "#" },
-    { label: "LinkedIn", href: "#" },
-  ];
-
   return (
-    <footer className="border-t border-gray-200 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        
-        {/* FIXED: Proper 4-column grid */}
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+    <footer className="border-t border-gray-200 bg-white">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
 
-          {/* Brand Column */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-purple-600 text-white px-2.5 py-1.5 rounded-md text-sm font-semibold tracking-tight">
-                AI
-              </div>
-              <span className="text-base font-semibold text-gray-900">
-                Directory
-              </span>
-            </div>
+        {/* Main footer content */}
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
 
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Your comprehensive guide to discovering and comparing the best AI tools available.
+          {/* Logo and description */}
+          <div className="text-center md:text-left">
+            <Logo />
+            <p className="text-sm text-gray-600 mt-2 max-w-md">
+              Discover and compare the best AI tools for your workflow.
             </p>
           </div>
 
-          {/* Mapped columns (Product, Company, Legal) */}
-          {sections.map((section) => (
-            <div key={section.title}>
-              <h4 className="text-sm font-semibold text-gray-900 mb-4">
-                {section.title}
-              </h4>
-              <ul className="space-y-3">
-                {section.links.map((link) => (
-                  <li key={link.label}>
-                    <a
-                      className="text-sm text-gray-600 hover:text-purple-600 transition-colors"
-                      href={link.href}
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div className="flex flex-col  gap-1">
 
-        </div>
-
-        {/* Bottom bar */}
-        <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-600">
-            © 2025 AI Folio. All rights reserved.
-          </p>
-
-          <div className="flex items-center gap-6">
-            {socials.map((s) => (
-              <a
-                key={s.label}
-                className="text-gray-600 hover:text-purple-600"
-                href={s.href}
-              >
-                {s.label}
+            {/* Simple links */}
+            <div className="flex flex-wrap justify-center gap-6 text-sm">
+              <a href="/tools" className="text-gray-600 hover:text-purple-600 transition-colors">
+                All Tools
               </a>
-            ))}
+              <a href="/categories" className="text-gray-600 hover:text-purple-600 transition-colors">
+                Categories
+              </a>
+              <a href="/about" className="text-gray-600 hover:text-purple-600 transition-colors">
+                About
+              </a>
+              <a href="/contact" className="text-gray-600 hover:text-purple-600 transition-colors">
+                Contact
+              </a>
+            </div>
+            {/* Copyright */}
+            <p className="text-xs text-gray-500">
+              © {new Date().getFullYear()} <span className="textGradient" > AI Folio</span>. All rights reserved.
+            </p>
           </div>
-        </div>
 
+        </div>
       </div>
     </footer>
   );

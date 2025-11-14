@@ -1,4 +1,5 @@
 import { Database, Tag, Layout, Palette, Zap, Filter, Sparkles } from "lucide-react";
+import SectionHeading from "./SectionHeading";
 
 const features = [
     {
@@ -43,52 +44,39 @@ const features = [
 
 export default function Features() {
     return (
-        <section className="py-24 lg:py-32">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8">
-                {/* Section Heading */}
-                <div className="text-center mb-16">
-                    <div className="inline-flex items-center gap-2 text-sm font-medium text-purple-600 mb-4">
-                        <i className="w-4 h-4 flex items-center justify-center">
-                            <Sparkles className="w-4 h-4 text-purple-600" />
-                        </i>
-                        What's Inside
-                    </div>
 
-                    <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight text-gray-900 mb-4">
-                        Everything you need to find
-                        <br /> the perfect <span className="textGradient">AI tool</span>
-                    </h2>
+        <SectionHeading
+            title={<>Everything you need to find the perfect <span className="textGradient" >AI tool</span></>}
+            subtitle="Comprehensive information and a clean interface make exploring AI tools effortless."
+            icon={<Sparkles className="w-4 h-4 text-purple-600" />}
+            iconTitle="What's Inside"
+            >
 
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Comprehensive information and a clean interface make exploring AI tools effortless.
-                    </p>
-                </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {features.map((feature) => {
+                    const Icon = feature.icon;
+                    return (
+                        <div
+                            key={feature.id}
+                            className="bg-white border relative border-gray-200 rounded-xl p-8 hover:border-purple-200 hover:shadow-lg transition-all group"
+                        >
+                            <span className="pointer-events-none absolute inset-0 bg-linear-to-b from-purple-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
 
-                {/* Features Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {features.map((feature) => {
-                        const Icon = feature.icon;
-                        return (
-                            <div
-                                key={feature.id}
-                                className="bg-white border relative border-gray-200 rounded-xl p-8 hover:border-purple-200 hover:shadow-lg transition-all group"
-                            >
-                                <span className="pointer-events-none absolute inset-0 bg-linear-to-b from-purple-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
+                            <div className="relative z-10">
 
-                                <div className="relative z-10">
-
-                                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-5 group-hover:bg-purple-600 transition-colors">
-                                        <Icon className="w-6 h-6 text-purple-600 group-hover:text-white" />
-                                    </div>
-                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                                    <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+                                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-5 group-hover:bg-purple-600 transition-colors">
+                                    <Icon className="w-6 h-6 text-purple-600 group-hover:text-white" />
                                 </div>
-
+                                <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                                <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
                             </div>
-                        );
-                    })}
-                </div>
+
+                        </div>
+                    );
+                })}
             </div>
-        </section>
+
+        </SectionHeading>
+
     );
 }
