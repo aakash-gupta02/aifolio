@@ -1,11 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import {
-    Zap,
-    Search,
     Grid3X3,
-    FolderOpen,
-    Info,
     X,
     Menu,
     DollarSign,
@@ -16,11 +12,13 @@ import Logo from './Logo';
 import SearchBox from '../pages/SearchBox';
 import ThemeToggle from '../ThemeToggle';
 import Link from 'next/link';
+import type { LucideIcon } from "lucide-react";
+
 
 type NavItem = {
     name: string;
     href: string;
-    icon: React.ComponentType<any>;
+    icon: LucideIcon;
 }
 
 // Update your navItems in navbar

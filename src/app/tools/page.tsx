@@ -1,6 +1,5 @@
 import { getAllTools } from "@/lib/getTools";
 
-import FiltersSection from "./_pageSections/FilterSection";
 import ToolsGrid from "./_pageSections/ToolsGrid";
 import { TrendingUp } from "lucide-react";
 import SectionHeading from "@/components/landingPage/SectionHeading";

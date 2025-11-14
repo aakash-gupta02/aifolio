@@ -26,18 +26,18 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const tool = getToolById(params.slug);
+    const tool = getToolById(params.slug);
 
-  if (!tool) {
+    if (!tool) {
+        return {
+            title: "Tool Not Found – AIFolio",
+            description: "The requested AI tool does not exist.",
+        };
+    }
     return {
-      title: "Tool Not Found – AIFolio",
-      description: "The requested AI tool does not exist.",
+        title: `${tool.name} – AI Tool Details`,
+        description: tool.description,
     };
-  }
-  return {
-    title: `${tool.name} – AI Tool Details`,
-    description: tool.description,
-  };
 }
 
 export default function ToolDetailPage({ params }: Props) {
@@ -51,7 +51,9 @@ export default function ToolDetailPage({ params }: Props) {
                         <AlertTriangle className="w-12 h-12 text-red-600 dark:text-red-400" />
                     </div>
                     <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Tool Not Found</h1>
-                    <p className="text-gray-600 dark:text-gray-400 mb-6">The tool you're looking for doesn't exist.</p>
+                    <p className="text-gray-600 dark:text-gray-400 mb-6">
+                        {`The tool you're looking for doesn't exist.`}
+                    </p>
                     <Link
                         href="/tools"
                         className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-all duration-200"

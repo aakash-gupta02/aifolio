@@ -1,4 +1,4 @@
-import { ArrowRight, Search } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Background from "./Background";
 import Link from "next/link";
 import SearchBox from "../pages/SearchBox";

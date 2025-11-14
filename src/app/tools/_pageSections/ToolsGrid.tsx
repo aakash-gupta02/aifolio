@@ -7,11 +7,6 @@ import {
   Filter,
   SortAsc,
   X,
-  TrendingUp,
-  ArrowUpDown,
-  AArrowUp,
-  AArrowDown,
-  BadgePercent
 } from "lucide-react";
 import Background from "@/components/landingPage/Background";
 
@@ -64,14 +59,7 @@ export default function ToolsGrid({ tools }: Props) {
     setSort("");
   };
 
-  const getPricingColor = (pricing: string) => {
-    switch (pricing) {
-      case "free": return "text-green-600 bg-green-50 border-green-200";
-      case "freemium": return "text-blue-600 bg-blue-50 border-blue-200";
-      case "paid": return "text-purple-600 bg-purple-50 border-purple-200";
-      default: return "text-gray-600 bg-gray-50 border-gray-200";
-    }
-  };
+
 
   return (
     <main className="min-h-screen">
@@ -174,8 +162,9 @@ export default function ToolsGrid({ tools }: Props) {
             No tools found
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md mx-auto">
-            Try adjusting your search terms or filters to find what you're looking for.
+            {`Try adjusting your search terms or filters to find what you're looking for.`}
           </p>
+
           <button
             onClick={clearFilters}
             className="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors"
