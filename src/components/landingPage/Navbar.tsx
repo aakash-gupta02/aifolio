@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                                     >
                                         <Icon className="w-4 h-4 transition-transform group-hover:scale-110" />
                                         {item.name}
-                                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 group-hover:w-3/4 transition-all duration-300 rounded-full"></div>
+                                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-linear-to-r from-purple-600 to-pink-600 group-hover:w-3/4 transition-all duration-300 rounded-full"></div>
                                     </a>
                                 );
                             })}
