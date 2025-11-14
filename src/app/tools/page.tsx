@@ -7,6 +7,12 @@ import SectionHeading from "@/components/landingPage/SectionHeading";
 
 export const revalidate = 3600; // ISR: revalidate every hour
 
+export const metadata = {
+  title: "All AI Tools – AIFolio",
+  description: "Search, filter, and explore AI tools.",
+};
+
+
 export default function ToolsPage() {
   const tools = getAllTools();
 

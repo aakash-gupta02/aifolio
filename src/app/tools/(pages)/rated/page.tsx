@@ -3,6 +3,12 @@ import ToolsGrid from "../../_pageSections/ToolsGrid";
 import SectionHeading from "@/components/landingPage/SectionHeading";
 import {  Star } from "lucide-react";
 
+export const metadata = {
+  title: "Top Rated AI Tools – AIFolio",
+  description: "AI tools that are highly rated by users.",
+};
+
+
 export default function RatedToolsPage() {
     const allTools = getAllTools();
     const ratedTools = allTools.filter(tool => tool.rank <= 10);

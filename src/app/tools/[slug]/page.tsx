@@ -24,6 +24,22 @@ export function generateStaticParams() {
     const tools = getAllTools();
     return tools.map((tool) => ({ slug: tool.slug }));
 }
+
+export async function generateMetadata({ params }: Props) {
+  const tool = getToolById(params.slug);
+
+  if (!tool) {
+    return {
+      title: "Tool Not Found – AIFolio",
+      description: "The requested AI tool does not exist.",
+    };
+  }
+  return {
+    title: `${tool.name} – AI Tool Details`,
+    description: tool.description,
+  };
+}
+
 export default function ToolDetailPage({ params }: Props) {
     const tool = getToolById(params.slug);
 

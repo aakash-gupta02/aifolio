@@ -1,7 +1,13 @@
 import { getAllTools } from "@/lib/getTools";
 import ToolsGrid from "../../_pageSections/ToolsGrid";
 import SectionHeading from "@/components/landingPage/SectionHeading";
-import { DollarSign, TrendingUp } from "lucide-react";
+import { DollarSign } from "lucide-react";
+
+export const metadata = {
+  title: "Free AI Tools – AIFolio",
+  description: "AI tools that are free to use.",
+};
+
 
 export default function FreeToolsPage() {
     const allTools = getAllTools();
