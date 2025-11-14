@@ -15,7 +15,7 @@ export default function SearchBox({ title = "Search AI Tools..." }: { title?: st
     };
 
     return (
-        <section className="bg-white rounded-lg max-w-52 px-4 py-3">
+        <section className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-lg max-w-52 px-4 py-3">
 
             <form onSubmit={searchRedirect} className="inline-flex items-center gap-2">
 
