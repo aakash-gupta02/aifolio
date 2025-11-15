@@ -10,13 +10,13 @@
 **AIFolio** is a curated directory of **100+ AI tools**, built as part of the **RaftLabs Intern Assessment**.
 The site includes:
 
-* A modern landing page
-* A full AI tools listing page with search, filters & permutations
-* Dynamic detailed pages for each AI tool
-* Metadata, SEO optimization, OpenGraph, sitemap
-* Fully static generation (SSG) + incremental regeneration (ISR)
-* Light/Dark mode
-* Deployed on Vercel
+- A modern landing page
+- A full AI tools listing page with search, filters & permutations
+- Dynamic detailed pages for each AI tool
+- Metadata, SEO optimization, OpenGraph, sitemap
+- Fully static generation (SSG) + incremental regeneration (ISR)
+- Light/Dark mode
+- Deployed on Vercel
 
 This project demonstrates the ability to **design, ship, and iterate fast using AI tools**.
 
@@ -40,7 +40,6 @@ This project demonstrates the ability to **design, ship, and iterate fast using 
 
 [![Screenshot_2025_11_15_135359.png](https://i.postimg.cc/0jtyt2vn/Screenshot_2025_11_15_135359.png)](https://postimg.cc/JHk808GH)
 
-
 ---
 
 # **Dataset Used**
@@ -53,13 +52,13 @@ This project demonstrates the ability to **design, ship, and iterate fast using 
 
 For each AI tool:
 
-* Name
-* Rank
-* Slug
-* Description
-* Pricing
-* Verified status
-* Image/Logo URL
+- Name
+- Rank
+- Slug
+- Description
+- Pricing
+- Verified status
+- Image/Logo URL
 
 ### **How the dataset was generated**
 
@@ -70,7 +69,7 @@ Since the network tab did NOT show any API response, the data was visible only t
 
 Process used:
 
-1. Opened *There's An AI For That → Leaderboard*
+1. Opened _There's An AI For That → Leaderboard_
 2. Opened **Sources tab** and located the full HTML block containing the 100 tool cards
 3. Copied that raw HTML
 4. Used **DeepSeek** to convert that messy HTML structure into a cleaned, normalized JSON array
@@ -85,23 +84,23 @@ No external API calls — purely static data, exactly as required.
 
 ### **Frontend / Framework**
 
-* Next.js 15 (App Router)
-* TypeScript
-* Tailwind CSS v4
-* Lucide React Icons
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- Lucide React Icons
 
 ### **Build / Rendering**
 
-* **SSG** for all pages
-* **ISR (Revalidate every 1 hour)** for tool detail pages
-* Metadata & OpenGraph
-* Automatic sitemap generation
-* Route-based metadata with `generateMetadata`
-* `generateStaticParams` for 100+ tool detail pages
+- **SSG** for all pages
+- **ISR (Revalidate every 1 hour)** for tool detail pages
+- Metadata & OpenGraph
+- Automatic sitemap generation
+- Route-based metadata with `generateMetadata`
+- `generateStaticParams` for 100+ tool detail pages
 
 ### **Deployment**
 
-* Vercel (Production)
+- Vercel (Production)
 
 ---
 
@@ -115,17 +114,17 @@ No external API calls — purely static data, exactly as required.
 
 [https://www.pinterest.com/pin/918241811554646456/](https://www.pinterest.com/pin/918241811554646456/)
 
-### 3. Link Stack - Dark Mode 
+### 3. Link Stack - Dark Mode
 
 [https://linkstackk.vercel.app](https://linkstackk.vercel.app)
 
 These references inspired:
 
-* Purple gradient theme
-* Clean card layout
-* Mesh backgrounds
-* Minimal typography
-* Section spacing and visual hierarchy
+- Purple gradient theme
+- Clean card layout
+- Mesh backgrounds
+- Minimal typography
+- Section spacing and visual hierarchy
 
 ---
 
@@ -137,34 +136,34 @@ Gradient hero section, stats, features, CTA.
 
 ### AI Tools Listing
 
-* Grid layout
-* Search
-* Keyword-based filtering
-* Category / Pricing / Verified permutations
+- Grid layout
+- Search
+- Keyword-based filtering
+- Category / Pricing / Verified permutations
 
 ### Dynamic Tool Detail Pages
 
-* Logo
-* Rank
-* Pricing badge
-* Verified status
-* Overview card
-* Visit Tool button
-* Gradient accents + clean UI
+- Logo
+- Rank
+- Pricing badge
+- Verified status
+- Overview card
+- Visit Tool button
+- Gradient accents + clean UI
 
 ### Permutation Pages
 
-* `/tools/free`
-* `/tools/rated`
-* `/tools/verified`
+- `/tools/free`
+- `/tools/rated`
+- `/tools/verified`
 
 ### Fully SEO Ready
 
-* Metadata
-* OG image ready
-* Sitemap
-* Structured titles
-* Auto-generated static HTML
+- Metadata
+- OG image ready
+- Sitemap
+- Structured titles
+- Auto-generated static HTML
 
 ### Mobile Responsive
 
@@ -220,27 +219,26 @@ npm run start    # run production build
 # **What I Would Improve With 2 More Days**
 
 1. **Add Category-Based Filters**
-    Smarter multi-filter with tags, pricing, sectors, etc.
+   Smarter multi-filter with tags, pricing, sectors, etc.
 
 2. **Faster Search With Fuse.js**
-    Fuzzy search to improve discovery.
+   Fuzzy search to improve discovery.
 
 3. **Add “Related Tools” on Tool Detail Page**
-    Suggest tools with similar pricing/category.
+   Suggest tools with similar pricing/category.
 
 4. **Generate Dynamic OG Images for Each Tool**
-    Better social previews.
+   Better social previews.
 
 5. **Add Pagination or Infinite Scroll**
-    Useful when dataset becomes bigger (200+ tools).
+   Useful when dataset becomes bigger (200+ tools).
 
 6. **Add Favorites (LocalStorage)**
-    Let users pin tools they like.
+   Let users pin tools they like.
 
 ---
 
 # **Submission Files**
 
-* GitHub Repo → [https://github.com/aakash-gupta02/aifolio](https://github.com/aakash-gupta02/aifolio)
-* Live Vercel URL → [https://aifolio-labs.vercel.app](https://aifolio-labs.vercel.app)
-
+- GitHub Repo → [https://github.com/aakash-gupta02/aifolio](https://github.com/aakash-gupta02/aifolio)
+- Live Vercel URL → [https://aifolio-labs.vercel.app](https://aifolio-labs.vercel.app)

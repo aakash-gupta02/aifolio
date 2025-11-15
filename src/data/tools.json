@@ -1,902 +1,902 @@
 [
-    {
-        "rank": 1,
-        "name": "ChatGPT",
-        "slug": "chatgpt",
-        "description": "ChatGPT is OpenAI's conversational AI that uses advanced language models to generate human-like re...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/chatgpt.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 2,
-        "name": "Thea",
-        "slug": "thea",
-        "description": "Thea is an AI-powered study tool designed to facilitate more effective learning for students. Rath...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/thea.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 3,
-        "name": "Freepik AI Image Generator",
-        "slug": "freepik-ai-image-generator",
-        "description": "Freepik AI Image Generator is a cutting-edge text-to-image tool that transforms your ideas and promp...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/freepik-ai-image-generator.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 4,
-        "name": "Gemini",
-        "slug": "gemini",
-        "description": "Gemini is a high-end Artificial Intelligence model developed by Google. It represents Google's most ...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/gemini.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 5,
-        "name": "Perplexity",
-        "slug": "perplexity-ai",
-        "description": "Perplexity is an AI-powered answer engine, designed to provide real-time, accurate and trusted respo...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/perplexity-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 6,
-        "name": "NotebookLM",
-        "slug": "notebooklm-1702164781",
-        "description": "NotebookLM is an advanced note-taking tool which utilizes artificial intelligence to provide a perso...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/notebooklm-1702164781.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 7,
-        "name": "Clever AI Humanizer",
-        "slug": "clever-ai-humanizer",
-        "description": "Clever AI Humanizer is a free online tool designed to rewrite AI-generated text to mimic genuine hum...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/clever-ai-humanizer.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 8,
-        "name": "Suno",
-        "slug": "suno",
-        "description": "Create at the speed of your ideas. Whether you're a seasoned pro, a bedroom producer, or just star...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/suno.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 9,
-        "name": "TheLibrarian.io",
-        "slug": "the-librarian",
-        "description": "What is It? TheLibrarian.io is a WhatsApp AI Assistant designed to help Master Your Inbox, Manage Y...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/the-librarian.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 10,
-        "name": "DeepSeek",
-        "slug": "deepseek",
-        "description": "DeepSeek is an AI tool capable of supercharged reasoning, designed for long-term strategies to solve...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/deepseek.png",
-        "pricing": "free"
-    },
-    {
-        "rank": 11,
-        "name": "Claude",
-        "slug": "claude",
-        "description": "Anthropic's Claude is an AI assistant that can be customized to perform a wide range of tasks with a...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/claude.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 12,
-        "name": "Saufter",
-        "slug": "saufter",
-        "description": "AI Email Marketing Platform 1) Saufter AI automatically tracks the email campaigns of your competit...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/saufter.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 13,
-        "name": "Mind Map Wizard",
-        "slug": "mind-map-wizard",
-        "description": "Ready to explore any topic? Start here! With Mind Map Wizard, you can create an AI-generated mind m...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/mind-map-wizard.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 14,
-        "name": "Automateed",
-        "slug": "automateed",
-        "description": "Automateed is an AI-powered ebook creation tool designed to expedite and simplify the book writing a...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/automateed.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 15,
-        "name": "ElevenLabs AI Voice Generator",
-        "slug": "eleven-labs",
-        "description": "ElevenLabs AI Voice Generator is an advanced tool designed to convert text to lifelike speech. The s...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/eleven-labs.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 16,
-        "name": "Leonardo AI",
-        "slug": "leonardo",
-        "description": "Leonardo AI is a comprehensive suite of artificial intelligence tools designed to elevate various cr...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/leonardo.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 17,
-        "name": "B12.io",
-        "slug": "b12-io",
-        "description": "B12's AI website builder includes everything you need to look professional, engage clients, and grow...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/b12-io.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 18,
-        "name": "CodeRabbit",
-        "slug": "coderabbit",
-        "description": "Supercharge your entire team with AI-driven contextual feedback on the Pull requests. CodeRabbit pro...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/coderabbit.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 19,
-        "name": "Napkin",
-        "slug": "napkin",
-        "description": "Napkin AI is a doc editor that helps users create engaging documents with visual aids and storytelli...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/napkin.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 20,
-        "name": "freebeat AI",
-        "slug": "freebeat-ai-video-generator",
-        "description": "freebeat.ai V9.8: AI Music Covers and Big Price Drops for Creators Hey creators! 🎬 V9.8 introduc...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/freebeat-ai-video-generator.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 21,
-        "name": "Noiz",
-        "slug": "noiz",
-        "description": "Noiz YouTube Video Summarizer is an Artificial Intelligence (AI) tool designed for generating concis...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/noiz.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 22,
-        "name": "Sora",
-        "slug": "sora-by-openai",
-        "description": "Sora is an AI model developed with the ability to generate realistic and imaginative scenes from tex...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/sora-by-openai.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 23,
-        "name": "Gamma",
-        "slug": "gamma-app",
-        "description": "Gamma is a web-based tool that enables users to create and present content with minimal formatting a...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/gamma-app.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 24,
-        "name": "Notis",
-        "slug": "notis-ai",
-        "description": "Notis is your always-on AI employee—assistant, chief of staff, and automation engineer living righ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/notis-ai.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 25,
-        "name": "Midjourney",
-        "slug": "midjourney",
-        "description": "Midjourney is an independent research lab dedicated to advancing the imaginative powers of the human...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/midjourney.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 26,
-        "name": "MyTrip.city",
-        "slug": "mytrip-city",
-        "description": "MyTrip.city is your AI-powered travel companion, designed to create personalized, visually stunning ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/mytrip-city.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 27,
-        "name": "Cursor",
-        "slug": "cursor-ai",
-        "description": "Cursor is an AI-first code editor designed for pair-programming. It offers features that aim to enha...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/cursor-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 28,
-        "name": "Veo",
-        "slug": "veo-google-deepmind",
-        "description": "Veo is a video generation model developed by Google's DeepMind. Its main function is to generate hig...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/veo-google-deepmind.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 29,
-        "name": "Image Optimizer AI",
-        "slug": "image-optimizer-ai",
-        "description": "Image Optimizer AI is a tool designed to automate various tasks that enhance image performance on th...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/image-optimizer-ai.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 30,
-        "name": "AgentVoice",
-        "slug": "agentvoice",
-        "description": "AgentVoice is the AI voice platform built for action. AgentVoice can automate entire workflows befo...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/agentvoice.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 31,
-        "name": "Ideogram",
-        "slug": "ideogram",
-        "description": "Ideogram is an AI tool designed to aid individuals in enhancing their creativity. By providing a sup...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/ideogram.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 32,
-        "name": "Chatbit",
-        "slug": "chatbit",
-        "description": "Chatbit is an intuitive AI chatbot platform designed to help businesses enhance website engagement, ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/chatbit.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 33,
-        "name": "Free Text-To-Speech",
-        "slug": "free-text-to-speech",
-        "description": "Concat me - Text-to-speech is a powerful and free online text-to-speech synthesis tool that converts...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/free-text-to-speech.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 34,
-        "name": "Marketing Assistant (Elsa AI)",
-        "slug": "m1-project",
-        "description": "Elsa is your AI marketing assistant. Here's what it can do for you: 1. Instantly build your Idea...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/m1-project.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 35,
-        "name": "Prismix",
-        "slug": "prismix",
-        "description": "Prismix is an AI-powered tool designed to simplify and optimize social media management and content ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/prismix.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 36,
-        "name": "PrompTessor",
-        "slug": "promptessor",
-        "description": "PrompTessor is a tool designed to enhance the effectiveness of AI interactions by providing an advan...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/promptessor.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 37,
-        "name": "Kling",
-        "slug": "kling",
-        "description": "Kling is an advanced text-to-video AI tool developed by the Kuaishou AI Team. It allows users to gen...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/kling.png",
-        "pricing": "free"
-    },
-    {
-        "rank": 38,
-        "name": "remio: Your Personal ChatGPT",
-        "slug": "remio",
-        "description": "remio is an AI-powered personal knowledge hub designed for multi-tasking professionals. It serves as...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/remio.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 39,
-        "name": "Grok",
-        "slug": "grok",
-        "description": "xAI's Grok is a conversational AI tool that utilizes a large language model (LLM) to facilitate chat...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/grok.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 40,
-        "name": "Relay.app",
-        "slug": "relay-app",
-        "description": "Relay.app is a platform to create AI Agents that work for you across Gmail, Notion, Salesforce, HubS...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/relay-app.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 41,
-        "name": "AI Voice Generator Free",
-        "slug": "ai-voice-generator-free",
-        "description": "AI Voice Generator Free is a website-based tool that enables users to convert text into synthesized ...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/ai-voice-generator-free.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 42,
-        "name": "Kin - Personal AI Advisors",
-        "slug": "kin-personal-ai",
-        "description": "Kin is a privacy-first AI advisory platform that gives you five specialized AI advisors working toge...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/kin-personal-ai.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 43,
-        "name": "Cabina.AI",
-        "slug": "cabina-ai",
-        "description": "Whether you're looking to be 5x faster with AI, eliminate routine tasks, generate quality images a...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/cabina-ai.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 44,
-        "name": "Concierge AI",
-        "slug": "concierge-ai",
-        "description": "Concierge is a first connected AI assistant that can read & write to your software tools, in real-ti...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/concierge-ai.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 45,
-        "name": "Format Magic",
-        "slug": "format-magic",
-        "description": "Format Magic is an Artificial Intelligence (AI) powered tool designed to transform plain text inputs...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/format-magic.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 46,
-        "name": "AI Coach That Sees/Talks/Pays (Impakt)",
-        "slug": "impakt-ai-coach",
-        "description": "Impakt AI Coach is your new workout buddy with a tech twist! Think less generic gym routine, more li...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/impakt-ai-coach.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 47,
-        "name": "Scisummary",
-        "slug": "scisummary",
-        "description": "SciSummary is a cutting-edge AI-driven summarization tool designed to make digesting scientific arti...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/scisummary.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 48,
-        "name": "Github Copilot",
-        "slug": "github-copilot",
-        "description": "GitHub Copilot is an AI-powered pair programming tool that works directly in your editor, suggesting...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/github-copilot.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 49,
-        "name": "Lovable",
-        "slug": "lovable",
-        "description": "Lovable is a tool that aids in the creation of software products through a user-friendly chat interf...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/lovable.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 50,
-        "name": "Mindsmith",
-        "slug": "mindsmith",
-        "description": "Mindsmith is a next-gen eLearning authoring tool. Using AI, it simplifies the process of creating an...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/mindsmith.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 51,
-        "name": "Younet",
-        "slug": "younet",
-        "description": "Younet is an AI-powered platform that enables users to create personalized AI agents to generate hum...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/younet.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 52,
-        "name": "Microsoft Copilot for Android",
-        "slug": "microsoft-copilot-for-android",
-        "description": "Microsoft Copilot is an AI-powered chat assistant utilizing advanced AI technologies, such as OpenAI...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/microsoft-copilot-for-android.png",
-        "pricing": "free"
-    },
-    {
-        "rank": 53,
-        "name": "Transcript LOL",
-        "slug": "transcript-lol",
-        "description": "🔥🔥🔥🔥 2 FREE TRANSCRIPTS EVERY DAY 🔥🔥🔥🔥 Transcript LOL gives you: ♾️ Unl...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/transcript-lol.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 54,
-        "name": "HeyGen",
-        "slug": "heygen",
-        "description": "HeyGen is an AI-powered video generation platform that allows businesses to create engaging videos w...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/heygen.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 55,
-        "name": "Manus",
-        "slug": "manus",
-        "description": "Manus is a general AI agent designed to translate thoughts into actions. It excels in various tasks,...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/manus.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 56,
-        "name": "Runway",
-        "slug": "runwayml",
-        "description": "Runway is an AI-powered content creation suite designed to help users create, edit and collaborate o...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/runwayml.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 57,
-        "name": "Kick",
-        "slug": "kick-co",
-        "description": "Kick is the only accounting software that does the work for you! Backed by OpenAI, Kick is the tool...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/kick-co.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 58,
-        "name": "ByteCap",
-        "slug": "bytecap",
-        "description": "#1 AI Video Shorts Maker for Businesses & Creators Create stunning, viral-ready videos in minutes w...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/bytecap.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 59,
-        "name": "bolt.new",
-        "slug": "bolt-new",
-        "description": "Bolt.new is a tool designed to facilitate the creation, running, editing, and deployment of full-sta...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/bolt-new.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 60,
-        "name": "NoteX: AI Note Taker, AI Notebook",
-        "slug": "notex-ai-note-taker",
-        "description": "Meet NoteX, your intelligent AI Note Copilot that transforms how you work and study. By seamlessly...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/notex-ai-note-taker.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 61,
-        "name": "PACT | Free Compliance Audit",
-        "slug": "ai-pact",
-        "description": "This tool is a comprehensive solution utilizing Artificial Intelligence to audit website compliance....",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/ai-pact.png",
-        "pricing": "free"
-    },
-    {
-        "rank": 62,
-        "name": "Recall",
-        "slug": "recall",
-        "description": "Your personal AI encyclopedia. Turn scattered information into a self-organizing knowledge base that...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/recall.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 63,
-        "name": "TheySaid",
-        "slug": "theysaid",
-        "description": "We're the team that built UserTesting (IPO in 2021), and now we're back with TheySaid to topple the ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/theysaid.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 64,
-        "name": "Voila",
-        "slug": "voila",
-        "description": "Voila is an AI browser assistant powered by ChatGPT. It's designed to streamline user's online inter...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/voila.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 65,
-        "name": "Nutshell Summaries",
-        "slug": "nutshell-summaries",
-        "description": "Nutshell Summaries is an Artificial Intelligence (AI)-powered tool designed to assist in summarizing...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/nutshell-summaries.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 66,
-        "name": "Smarter ChatGPT by Athena AI",
-        "slug": "athena-ai-1739206521",
-        "description": "Lost in ChatGPT AI's text overload? Need visual answers, tailored travel and product insights, and...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/athena-ai-1739206521.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 67,
-        "name": "Noiz - AI PDF Summarizer",
-        "slug": "noiz-ai-pdf-summarizer",
-        "description": "Noiz is an AI tool that provides summarizations of PDFs. It uses the latest ChatGPT model to generat...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/noiz-ai-pdf-summarizer.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 68,
-        "name": "FREE AI YouTube Title Generator",
-        "slug": "free-ai-youtube-title-generator",
-        "description": "The Free AI YouTube Title Generator is designed to generate appealing, trend-adherent titles for You...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/free-ai-youtube-title-generator.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 69,
-        "name": "LiGo (for LinkedIn)",
-        "slug": "ligo-for-linkedin",
-        "description": "LiGo transforms how agencies and founders build their LinkedIn presence by automating content creati...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/ligo-for-linkedin.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 70,
-        "name": "GenTube",
-        "slug": "gentube",
-        "description": "GenTube is an AI-based tool designed for the creation of diverse and captivating visual art. It spec...",
-        "verified": false,
-        "image_url": "https://media.theresanaiforthat.com/icons/gentube.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 71,
-        "name": "BotDojo",
-        "slug": "botdojo",
-        "description": "BotDojo is a comprehensive platform for designing, testing, and deploying enterprise-level AI soluti...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/botdojo.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 72,
-        "name": "KreadoAI",
-        "slug": "kreado-ai",
-        "description": "KreadoAI is trusted by over 3,500 teams to scale video production effortlessly. With KreadoAI's AI-...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/kreado-ai.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 73,
-        "name": "Sidejot",
-        "slug": "sidejot",
-        "description": "Sidejot is an AI-Powered Task Planner and Focus Assistant designed to integrate intelligent task man...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/sidejot.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 74,
-        "name": "leania.ai",
-        "slug": "leania",
-        "description": "For Consultants & Fractional COOs Leania.ai is the fastest way to spot inefficiencies in your clien...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/leania.svg",
-        "pricing": "paid"
-    },
-    {
-        "rank": 75,
-        "name": "Cool Coloring Pages",
-        "slug": "cool-coloring-pages",
-        "description": "Cool Coloring Pages is an AI-powered tool that generates unique coloring pages for both kids and adu...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/cool-coloring-pages.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 76,
-        "name": "Emergent",
-        "slug": "emergent",
-        "description": "Emergent is the first agentic vibecoding platform built for serious builders. If you're pouring ti...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/emergent.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 77,
-        "name": "Syft",
-        "slug": "syft-1736150583",
-        "description": "Syft is an AI-driven tool designed to enable users to customize personal & specific news topics and ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/syft-1736150583.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 78,
-        "name": "TurboScribe",
-        "slug": "turboscribe",
-        "description": "TurboScribe transcribes audio and video files to accurate text in seconds. Features: 🎯 #1 in Spe...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/turboscribe.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 79,
-        "name": "Not Legal Advice",
-        "slug": "not-legal-advice",
-        "description": "Not Legal Advice is an AI-powered service designed to assist individuals in navigating complex legal...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/not-legal-advice.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 80,
-        "name": "Postiz",
-        "slug": "postiz",
-        "description": "Postiz is a comprehensive social media management tool designed to aid in streamlining your social m...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/postiz.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 81,
-        "name": "Bookbud",
-        "slug": "bookbud",
-        "description": "BookBud.ai is a web-based service designed to support self-published authors in creating both fictio...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/bookbud.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 82,
-        "name": "PrometAI",
-        "slug": "prometai",
-        "description": "PrometAI is an online artificial intelligence tool that enables creation of detailed business plans....",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/prometai.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 83,
-        "name": "The AI Voice Generator",
-        "slug": "the-ai-voice-generator",
-        "description": "The AI Voice Generator is a free-to-use application that integrates AI technology to convert text in...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/the-ai-voice-generator.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 84,
-        "name": "ChatPlayground AI",
-        "slug": "chatplayground-ai",
-        "description": "Compare the best AI models including ChatGPT-5, Google Gemini 2.5, Claude 4 Sonnet, DeepSeek R1, Lla...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/chatplayground-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 85,
-        "name": "FetchFox",
-        "slug": "fetchfox",
-        "description": "FetchFox is an AI-powered web scraping tool that enables users to extract desired data from any webs...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/fetchfox.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 86,
-        "name": "Collate",
-        "slug": "ucollate",
-        "description": "Collate is a free, offline PDF assistant designed for everyday learners, students, and professionals...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/ucollate.png",
-        "pricing": "free"
-    },
-    {
-        "rank": 87,
-        "name": "Hedy AI",
-        "slug": "hedy-ai",
-        "description": "Unlock the cheat code for meetings with Hedy. This AI genius whispers real-time insights in your ear...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/hedy-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 88,
-        "name": "GlobalGPT",
-        "slug": "globalgpt-1731054346",
-        "description": "GlobalGPT is an independently developed site by Future Share LLC, launched in March 2024. It current...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/globalgpt-1731054346.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 89,
-        "name": "Wanderboat",
-        "slug": "wanderboat",
-        "description": "Wanderboat AI - Trip Planner is an artificial intelligence-driven tool aimed at helping users plan t...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/wanderboat.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 90,
-        "name": "ThatNeedle",
-        "slug": "thatneedle",
-        "description": "ThatNeedle Gist is an AI tool designed to enhance the user experience on YouTube. Using a GPT-based ...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/thatneedle.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 91,
-        "name": "Whiteboard by Athena AI",
-        "slug": "whiteboard-by-athena-ai",
-        "description": "Instant Visual Creation Describe your concept, and watch as AI instantly generates flowcharts, wire...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/whiteboard-by-athena-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 92,
-        "name": "MindMap AI",
-        "slug": "mindmap-ai",
-        "description": "MindMap AI is the #1 AI-powered mind mapping tool that revolutionizes your ideation process. Transfo...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/mindmap-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 93,
-        "name": "myAIninja",
-        "slug": "myaininja",
-        "description": "My AI Ninja: Your Content Creation Ally ► What is My AI Ninja? My AI Ninja simplifies content cre...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/myaininja.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 94,
-        "name": "Agents by Athena AI",
-        "slug": "agents-by-athena-ai",
-        "description": "If you are familiar with ChatGPT's Custom GPTs, our agents are similar but much better. Why? Because...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/agents-by-athena-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 95,
-        "name": "Informly Idea Validator",
-        "slug": "informly-idea-validator",
-        "description": "The Informly Idea Validator is an AI-powered tool designed to assist entrepreneurs in validating the...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/informly-idea-validator.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 96,
-        "name": "Scourhead",
-        "slug": "scourhead",
-        "description": "Scourhead is an open-source agentic AI application designed to streamline online research by automat...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/scourhead.svg",
-        "pricing": "free"
-    },
-    {
-        "rank": 97,
-        "name": "OnSpace.AI - No Code App Builder",
-        "slug": "onspace-ai",
-        "description": "🚀 Meet OnSpace.AI – Free AI no-code platform dedicate to mobile apps building! Features and int...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/onspace-ai.png",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 98,
-        "name": "ComputerX",
-        "slug": "computer-x",
-        "description": "What is ComputerX? We built ComputerX to do the work for you and free up your time—from automatio...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/computer-x.png",
-        "pricing": "paid"
-    },
-    {
-        "rank": 99,
-        "name": "Tufa",
-        "slug": "tufa-io",
-        "description": "Tufa is an AI-powered social media manager that creates posts from your business' website and schedu...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/tufa-io.svg",
-        "pricing": "freemium"
-    },
-    {
-        "rank": 100,
-        "name": "AI Video Generator by RenderFlow AI",
-        "slug": "renderflow-ai",
-        "description": "RenderFlow AI Video Generator is a tool for transforming text descriptions into dynamic videos using...",
-        "verified": true,
-        "image_url": "https://media.theresanaiforthat.com/icons/renderflow-ai.svg",
-        "pricing": "freemium"
-    }
+  {
+    "rank": 1,
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "ChatGPT is OpenAI's conversational AI that uses advanced language models to generate human-like re...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/chatgpt.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 2,
+    "name": "Thea",
+    "slug": "thea",
+    "description": "Thea is an AI-powered study tool designed to facilitate more effective learning for students. Rath...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/thea.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 3,
+    "name": "Freepik AI Image Generator",
+    "slug": "freepik-ai-image-generator",
+    "description": "Freepik AI Image Generator is a cutting-edge text-to-image tool that transforms your ideas and promp...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/freepik-ai-image-generator.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 4,
+    "name": "Gemini",
+    "slug": "gemini",
+    "description": "Gemini is a high-end Artificial Intelligence model developed by Google. It represents Google's most ...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/gemini.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 5,
+    "name": "Perplexity",
+    "slug": "perplexity-ai",
+    "description": "Perplexity is an AI-powered answer engine, designed to provide real-time, accurate and trusted respo...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/perplexity-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 6,
+    "name": "NotebookLM",
+    "slug": "notebooklm-1702164781",
+    "description": "NotebookLM is an advanced note-taking tool which utilizes artificial intelligence to provide a perso...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/notebooklm-1702164781.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 7,
+    "name": "Clever AI Humanizer",
+    "slug": "clever-ai-humanizer",
+    "description": "Clever AI Humanizer is a free online tool designed to rewrite AI-generated text to mimic genuine hum...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/clever-ai-humanizer.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 8,
+    "name": "Suno",
+    "slug": "suno",
+    "description": "Create at the speed of your ideas. Whether you're a seasoned pro, a bedroom producer, or just star...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/suno.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 9,
+    "name": "TheLibrarian.io",
+    "slug": "the-librarian",
+    "description": "What is It? TheLibrarian.io is a WhatsApp AI Assistant designed to help Master Your Inbox, Manage Y...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/the-librarian.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 10,
+    "name": "DeepSeek",
+    "slug": "deepseek",
+    "description": "DeepSeek is an AI tool capable of supercharged reasoning, designed for long-term strategies to solve...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/deepseek.png",
+    "pricing": "free"
+  },
+  {
+    "rank": 11,
+    "name": "Claude",
+    "slug": "claude",
+    "description": "Anthropic's Claude is an AI assistant that can be customized to perform a wide range of tasks with a...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/claude.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 12,
+    "name": "Saufter",
+    "slug": "saufter",
+    "description": "AI Email Marketing Platform 1) Saufter AI automatically tracks the email campaigns of your competit...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/saufter.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 13,
+    "name": "Mind Map Wizard",
+    "slug": "mind-map-wizard",
+    "description": "Ready to explore any topic? Start here! With Mind Map Wizard, you can create an AI-generated mind m...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/mind-map-wizard.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 14,
+    "name": "Automateed",
+    "slug": "automateed",
+    "description": "Automateed is an AI-powered ebook creation tool designed to expedite and simplify the book writing a...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/automateed.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 15,
+    "name": "ElevenLabs AI Voice Generator",
+    "slug": "eleven-labs",
+    "description": "ElevenLabs AI Voice Generator is an advanced tool designed to convert text to lifelike speech. The s...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/eleven-labs.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 16,
+    "name": "Leonardo AI",
+    "slug": "leonardo",
+    "description": "Leonardo AI is a comprehensive suite of artificial intelligence tools designed to elevate various cr...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/leonardo.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 17,
+    "name": "B12.io",
+    "slug": "b12-io",
+    "description": "B12's AI website builder includes everything you need to look professional, engage clients, and grow...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/b12-io.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 18,
+    "name": "CodeRabbit",
+    "slug": "coderabbit",
+    "description": "Supercharge your entire team with AI-driven contextual feedback on the Pull requests. CodeRabbit pro...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/coderabbit.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 19,
+    "name": "Napkin",
+    "slug": "napkin",
+    "description": "Napkin AI is a doc editor that helps users create engaging documents with visual aids and storytelli...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/napkin.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 20,
+    "name": "freebeat AI",
+    "slug": "freebeat-ai-video-generator",
+    "description": "freebeat.ai V9.8: AI Music Covers and Big Price Drops for Creators Hey creators! 🎬 V9.8 introduc...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/freebeat-ai-video-generator.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 21,
+    "name": "Noiz",
+    "slug": "noiz",
+    "description": "Noiz YouTube Video Summarizer is an Artificial Intelligence (AI) tool designed for generating concis...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/noiz.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 22,
+    "name": "Sora",
+    "slug": "sora-by-openai",
+    "description": "Sora is an AI model developed with the ability to generate realistic and imaginative scenes from tex...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/sora-by-openai.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 23,
+    "name": "Gamma",
+    "slug": "gamma-app",
+    "description": "Gamma is a web-based tool that enables users to create and present content with minimal formatting a...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/gamma-app.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 24,
+    "name": "Notis",
+    "slug": "notis-ai",
+    "description": "Notis is your always-on AI employee—assistant, chief of staff, and automation engineer living righ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/notis-ai.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 25,
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "Midjourney is an independent research lab dedicated to advancing the imaginative powers of the human...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/midjourney.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 26,
+    "name": "MyTrip.city",
+    "slug": "mytrip-city",
+    "description": "MyTrip.city is your AI-powered travel companion, designed to create personalized, visually stunning ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/mytrip-city.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 27,
+    "name": "Cursor",
+    "slug": "cursor-ai",
+    "description": "Cursor is an AI-first code editor designed for pair-programming. It offers features that aim to enha...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/cursor-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 28,
+    "name": "Veo",
+    "slug": "veo-google-deepmind",
+    "description": "Veo is a video generation model developed by Google's DeepMind. Its main function is to generate hig...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/veo-google-deepmind.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 29,
+    "name": "Image Optimizer AI",
+    "slug": "image-optimizer-ai",
+    "description": "Image Optimizer AI is a tool designed to automate various tasks that enhance image performance on th...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/image-optimizer-ai.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 30,
+    "name": "AgentVoice",
+    "slug": "agentvoice",
+    "description": "AgentVoice is the AI voice platform built for action. AgentVoice can automate entire workflows befo...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/agentvoice.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 31,
+    "name": "Ideogram",
+    "slug": "ideogram",
+    "description": "Ideogram is an AI tool designed to aid individuals in enhancing their creativity. By providing a sup...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/ideogram.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 32,
+    "name": "Chatbit",
+    "slug": "chatbit",
+    "description": "Chatbit is an intuitive AI chatbot platform designed to help businesses enhance website engagement, ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/chatbit.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 33,
+    "name": "Free Text-To-Speech",
+    "slug": "free-text-to-speech",
+    "description": "Concat me - Text-to-speech is a powerful and free online text-to-speech synthesis tool that converts...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/free-text-to-speech.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 34,
+    "name": "Marketing Assistant (Elsa AI)",
+    "slug": "m1-project",
+    "description": "Elsa is your AI marketing assistant. Here's what it can do for you: 1. Instantly build your Idea...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/m1-project.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 35,
+    "name": "Prismix",
+    "slug": "prismix",
+    "description": "Prismix is an AI-powered tool designed to simplify and optimize social media management and content ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/prismix.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 36,
+    "name": "PrompTessor",
+    "slug": "promptessor",
+    "description": "PrompTessor is a tool designed to enhance the effectiveness of AI interactions by providing an advan...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/promptessor.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 37,
+    "name": "Kling",
+    "slug": "kling",
+    "description": "Kling is an advanced text-to-video AI tool developed by the Kuaishou AI Team. It allows users to gen...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/kling.png",
+    "pricing": "free"
+  },
+  {
+    "rank": 38,
+    "name": "remio: Your Personal ChatGPT",
+    "slug": "remio",
+    "description": "remio is an AI-powered personal knowledge hub designed for multi-tasking professionals. It serves as...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/remio.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 39,
+    "name": "Grok",
+    "slug": "grok",
+    "description": "xAI's Grok is a conversational AI tool that utilizes a large language model (LLM) to facilitate chat...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/grok.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 40,
+    "name": "Relay.app",
+    "slug": "relay-app",
+    "description": "Relay.app is a platform to create AI Agents that work for you across Gmail, Notion, Salesforce, HubS...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/relay-app.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 41,
+    "name": "AI Voice Generator Free",
+    "slug": "ai-voice-generator-free",
+    "description": "AI Voice Generator Free is a website-based tool that enables users to convert text into synthesized ...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/ai-voice-generator-free.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 42,
+    "name": "Kin - Personal AI Advisors",
+    "slug": "kin-personal-ai",
+    "description": "Kin is a privacy-first AI advisory platform that gives you five specialized AI advisors working toge...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/kin-personal-ai.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 43,
+    "name": "Cabina.AI",
+    "slug": "cabina-ai",
+    "description": "Whether you're looking to be 5x faster with AI, eliminate routine tasks, generate quality images a...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/cabina-ai.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 44,
+    "name": "Concierge AI",
+    "slug": "concierge-ai",
+    "description": "Concierge is a first connected AI assistant that can read & write to your software tools, in real-ti...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/concierge-ai.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 45,
+    "name": "Format Magic",
+    "slug": "format-magic",
+    "description": "Format Magic is an Artificial Intelligence (AI) powered tool designed to transform plain text inputs...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/format-magic.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 46,
+    "name": "AI Coach That Sees/Talks/Pays (Impakt)",
+    "slug": "impakt-ai-coach",
+    "description": "Impakt AI Coach is your new workout buddy with a tech twist! Think less generic gym routine, more li...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/impakt-ai-coach.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 47,
+    "name": "Scisummary",
+    "slug": "scisummary",
+    "description": "SciSummary is a cutting-edge AI-driven summarization tool designed to make digesting scientific arti...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/scisummary.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 48,
+    "name": "Github Copilot",
+    "slug": "github-copilot",
+    "description": "GitHub Copilot is an AI-powered pair programming tool that works directly in your editor, suggesting...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/github-copilot.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 49,
+    "name": "Lovable",
+    "slug": "lovable",
+    "description": "Lovable is a tool that aids in the creation of software products through a user-friendly chat interf...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/lovable.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 50,
+    "name": "Mindsmith",
+    "slug": "mindsmith",
+    "description": "Mindsmith is a next-gen eLearning authoring tool. Using AI, it simplifies the process of creating an...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/mindsmith.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 51,
+    "name": "Younet",
+    "slug": "younet",
+    "description": "Younet is an AI-powered platform that enables users to create personalized AI agents to generate hum...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/younet.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 52,
+    "name": "Microsoft Copilot for Android",
+    "slug": "microsoft-copilot-for-android",
+    "description": "Microsoft Copilot is an AI-powered chat assistant utilizing advanced AI technologies, such as OpenAI...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/microsoft-copilot-for-android.png",
+    "pricing": "free"
+  },
+  {
+    "rank": 53,
+    "name": "Transcript LOL",
+    "slug": "transcript-lol",
+    "description": "🔥🔥🔥🔥 2 FREE TRANSCRIPTS EVERY DAY 🔥🔥🔥🔥 Transcript LOL gives you: ♾️ Unl...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/transcript-lol.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 54,
+    "name": "HeyGen",
+    "slug": "heygen",
+    "description": "HeyGen is an AI-powered video generation platform that allows businesses to create engaging videos w...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/heygen.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 55,
+    "name": "Manus",
+    "slug": "manus",
+    "description": "Manus is a general AI agent designed to translate thoughts into actions. It excels in various tasks,...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/manus.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 56,
+    "name": "Runway",
+    "slug": "runwayml",
+    "description": "Runway is an AI-powered content creation suite designed to help users create, edit and collaborate o...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/runwayml.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 57,
+    "name": "Kick",
+    "slug": "kick-co",
+    "description": "Kick is the only accounting software that does the work for you! Backed by OpenAI, Kick is the tool...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/kick-co.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 58,
+    "name": "ByteCap",
+    "slug": "bytecap",
+    "description": "#1 AI Video Shorts Maker for Businesses & Creators Create stunning, viral-ready videos in minutes w...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/bytecap.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 59,
+    "name": "bolt.new",
+    "slug": "bolt-new",
+    "description": "Bolt.new is a tool designed to facilitate the creation, running, editing, and deployment of full-sta...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/bolt-new.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 60,
+    "name": "NoteX: AI Note Taker, AI Notebook",
+    "slug": "notex-ai-note-taker",
+    "description": "Meet NoteX, your intelligent AI Note Copilot that transforms how you work and study. By seamlessly...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/notex-ai-note-taker.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 61,
+    "name": "PACT | Free Compliance Audit",
+    "slug": "ai-pact",
+    "description": "This tool is a comprehensive solution utilizing Artificial Intelligence to audit website compliance....",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/ai-pact.png",
+    "pricing": "free"
+  },
+  {
+    "rank": 62,
+    "name": "Recall",
+    "slug": "recall",
+    "description": "Your personal AI encyclopedia. Turn scattered information into a self-organizing knowledge base that...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/recall.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 63,
+    "name": "TheySaid",
+    "slug": "theysaid",
+    "description": "We're the team that built UserTesting (IPO in 2021), and now we're back with TheySaid to topple the ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/theysaid.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 64,
+    "name": "Voila",
+    "slug": "voila",
+    "description": "Voila is an AI browser assistant powered by ChatGPT. It's designed to streamline user's online inter...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/voila.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 65,
+    "name": "Nutshell Summaries",
+    "slug": "nutshell-summaries",
+    "description": "Nutshell Summaries is an Artificial Intelligence (AI)-powered tool designed to assist in summarizing...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/nutshell-summaries.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 66,
+    "name": "Smarter ChatGPT by Athena AI",
+    "slug": "athena-ai-1739206521",
+    "description": "Lost in ChatGPT AI's text overload? Need visual answers, tailored travel and product insights, and...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/athena-ai-1739206521.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 67,
+    "name": "Noiz - AI PDF Summarizer",
+    "slug": "noiz-ai-pdf-summarizer",
+    "description": "Noiz is an AI tool that provides summarizations of PDFs. It uses the latest ChatGPT model to generat...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/noiz-ai-pdf-summarizer.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 68,
+    "name": "FREE AI YouTube Title Generator",
+    "slug": "free-ai-youtube-title-generator",
+    "description": "The Free AI YouTube Title Generator is designed to generate appealing, trend-adherent titles for You...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/free-ai-youtube-title-generator.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 69,
+    "name": "LiGo (for LinkedIn)",
+    "slug": "ligo-for-linkedin",
+    "description": "LiGo transforms how agencies and founders build their LinkedIn presence by automating content creati...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/ligo-for-linkedin.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 70,
+    "name": "GenTube",
+    "slug": "gentube",
+    "description": "GenTube is an AI-based tool designed for the creation of diverse and captivating visual art. It spec...",
+    "verified": false,
+    "image_url": "https://media.theresanaiforthat.com/icons/gentube.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 71,
+    "name": "BotDojo",
+    "slug": "botdojo",
+    "description": "BotDojo is a comprehensive platform for designing, testing, and deploying enterprise-level AI soluti...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/botdojo.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 72,
+    "name": "KreadoAI",
+    "slug": "kreado-ai",
+    "description": "KreadoAI is trusted by over 3,500 teams to scale video production effortlessly. With KreadoAI's AI-...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/kreado-ai.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 73,
+    "name": "Sidejot",
+    "slug": "sidejot",
+    "description": "Sidejot is an AI-Powered Task Planner and Focus Assistant designed to integrate intelligent task man...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/sidejot.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 74,
+    "name": "leania.ai",
+    "slug": "leania",
+    "description": "For Consultants & Fractional COOs Leania.ai is the fastest way to spot inefficiencies in your clien...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/leania.svg",
+    "pricing": "paid"
+  },
+  {
+    "rank": 75,
+    "name": "Cool Coloring Pages",
+    "slug": "cool-coloring-pages",
+    "description": "Cool Coloring Pages is an AI-powered tool that generates unique coloring pages for both kids and adu...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/cool-coloring-pages.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 76,
+    "name": "Emergent",
+    "slug": "emergent",
+    "description": "Emergent is the first agentic vibecoding platform built for serious builders. If you're pouring ti...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/emergent.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 77,
+    "name": "Syft",
+    "slug": "syft-1736150583",
+    "description": "Syft is an AI-driven tool designed to enable users to customize personal & specific news topics and ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/syft-1736150583.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 78,
+    "name": "TurboScribe",
+    "slug": "turboscribe",
+    "description": "TurboScribe transcribes audio and video files to accurate text in seconds. Features: 🎯 #1 in Spe...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/turboscribe.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 79,
+    "name": "Not Legal Advice",
+    "slug": "not-legal-advice",
+    "description": "Not Legal Advice is an AI-powered service designed to assist individuals in navigating complex legal...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/not-legal-advice.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 80,
+    "name": "Postiz",
+    "slug": "postiz",
+    "description": "Postiz is a comprehensive social media management tool designed to aid in streamlining your social m...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/postiz.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 81,
+    "name": "Bookbud",
+    "slug": "bookbud",
+    "description": "BookBud.ai is a web-based service designed to support self-published authors in creating both fictio...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/bookbud.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 82,
+    "name": "PrometAI",
+    "slug": "prometai",
+    "description": "PrometAI is an online artificial intelligence tool that enables creation of detailed business plans....",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/prometai.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 83,
+    "name": "The AI Voice Generator",
+    "slug": "the-ai-voice-generator",
+    "description": "The AI Voice Generator is a free-to-use application that integrates AI technology to convert text in...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/the-ai-voice-generator.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 84,
+    "name": "ChatPlayground AI",
+    "slug": "chatplayground-ai",
+    "description": "Compare the best AI models including ChatGPT-5, Google Gemini 2.5, Claude 4 Sonnet, DeepSeek R1, Lla...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/chatplayground-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 85,
+    "name": "FetchFox",
+    "slug": "fetchfox",
+    "description": "FetchFox is an AI-powered web scraping tool that enables users to extract desired data from any webs...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/fetchfox.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 86,
+    "name": "Collate",
+    "slug": "ucollate",
+    "description": "Collate is a free, offline PDF assistant designed for everyday learners, students, and professionals...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/ucollate.png",
+    "pricing": "free"
+  },
+  {
+    "rank": 87,
+    "name": "Hedy AI",
+    "slug": "hedy-ai",
+    "description": "Unlock the cheat code for meetings with Hedy. This AI genius whispers real-time insights in your ear...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/hedy-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 88,
+    "name": "GlobalGPT",
+    "slug": "globalgpt-1731054346",
+    "description": "GlobalGPT is an independently developed site by Future Share LLC, launched in March 2024. It current...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/globalgpt-1731054346.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 89,
+    "name": "Wanderboat",
+    "slug": "wanderboat",
+    "description": "Wanderboat AI - Trip Planner is an artificial intelligence-driven tool aimed at helping users plan t...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/wanderboat.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 90,
+    "name": "ThatNeedle",
+    "slug": "thatneedle",
+    "description": "ThatNeedle Gist is an AI tool designed to enhance the user experience on YouTube. Using a GPT-based ...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/thatneedle.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 91,
+    "name": "Whiteboard by Athena AI",
+    "slug": "whiteboard-by-athena-ai",
+    "description": "Instant Visual Creation Describe your concept, and watch as AI instantly generates flowcharts, wire...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/whiteboard-by-athena-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 92,
+    "name": "MindMap AI",
+    "slug": "mindmap-ai",
+    "description": "MindMap AI is the #1 AI-powered mind mapping tool that revolutionizes your ideation process. Transfo...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/mindmap-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 93,
+    "name": "myAIninja",
+    "slug": "myaininja",
+    "description": "My AI Ninja: Your Content Creation Ally ► What is My AI Ninja? My AI Ninja simplifies content cre...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/myaininja.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 94,
+    "name": "Agents by Athena AI",
+    "slug": "agents-by-athena-ai",
+    "description": "If you are familiar with ChatGPT's Custom GPTs, our agents are similar but much better. Why? Because...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/agents-by-athena-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 95,
+    "name": "Informly Idea Validator",
+    "slug": "informly-idea-validator",
+    "description": "The Informly Idea Validator is an AI-powered tool designed to assist entrepreneurs in validating the...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/informly-idea-validator.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 96,
+    "name": "Scourhead",
+    "slug": "scourhead",
+    "description": "Scourhead is an open-source agentic AI application designed to streamline online research by automat...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/scourhead.svg",
+    "pricing": "free"
+  },
+  {
+    "rank": 97,
+    "name": "OnSpace.AI - No Code App Builder",
+    "slug": "onspace-ai",
+    "description": "🚀 Meet OnSpace.AI – Free AI no-code platform dedicate to mobile apps building! Features and int...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/onspace-ai.png",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 98,
+    "name": "ComputerX",
+    "slug": "computer-x",
+    "description": "What is ComputerX? We built ComputerX to do the work for you and free up your time—from automatio...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/computer-x.png",
+    "pricing": "paid"
+  },
+  {
+    "rank": 99,
+    "name": "Tufa",
+    "slug": "tufa-io",
+    "description": "Tufa is an AI-powered social media manager that creates posts from your business' website and schedu...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/tufa-io.svg",
+    "pricing": "freemium"
+  },
+  {
+    "rank": 100,
+    "name": "AI Video Generator by RenderFlow AI",
+    "slug": "renderflow-ai",
+    "description": "RenderFlow AI Video Generator is a tool for transforming text descriptions into dynamic videos using...",
+    "verified": true,
+    "image_url": "https://media.theresanaiforthat.com/icons/renderflow-ai.svg",
+    "pricing": "freemium"
+  }
 ]

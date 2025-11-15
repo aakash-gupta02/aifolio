@@ -1,25 +1,21 @@
-import { getAllTools } from "@/lib/getTools";
+import { getAllTools } from '@/lib/getTools'
 
 export default function sitemap() {
-  const domain = "https://aifolio-labs.vercel.app";
+  const domain = 'https://aifolio-labs.vercel.app'
 
-  const tools = getAllTools();
+  const tools = getAllTools()
 
   // Dynamic tool detail pages
   const toolUrls = tools.map((tool) => ({
     url: `${domain}/tools/${tool.slug}`,
     lastModified: new Date(),
-  }));
+  }))
 
   // Permutation pages
-  const permutationPages = [
-    "/tools/free",
-    "/tools/top-rated",
-    "/tools/verified",
-  ].map((page) => ({
+  const permutationPages = ['/tools/free', '/tools/top-rated', '/tools/verified'].map((page) => ({
     url: `${domain}${page}`,
     lastModified: new Date(),
-  }));
+  }))
 
   return [
     // Home
@@ -39,5 +35,5 @@ export default function sitemap() {
 
     // Tool detail pages
     ...toolUrls,
-  ];
+  ]
 }
